@@ -9,6 +9,7 @@ class CreateTopicForm(forms.ModelForm):
             'title', 'description'
         ]
 
+
 class CreateCommentForm(forms.ModelForm):
     class Meta:
         model = Comment
